@@ -4,7 +4,6 @@ item tinycore (tinycore)
 item voidlinux (void linux)
 item archlinux (arch linux)
 item ubuntu (ubuntu trash)
-item mx (mx linux aka actually good)
 item saby (sabayon aka gentoo but worse)
 item antergos (antergos aka arch with a nice installer)
 item slacko (puppy linux slackware)
@@ -22,9 +21,6 @@ sanboot http://mirror.aarnet.edu.au/pub/archlinux/iso/2019.06.01/archlinux-2019.
 
 :ubuntu
 sanboot http://releases.ubuntu.com/18.04.2/ubuntu-18.04.2-desktop-amd64.iso
-
-:mx 
-sanboot http://mirror.math.princeton.edu/pub/mxlinux-iso/MX/Final/MX-18.3_x64.iso
 
 :saby
 sanboot http://mirror.cs.vt.edu/pub/SabayonLinux/stable/Sabayon_Linux_19.03_amd64_LXQt.iso
