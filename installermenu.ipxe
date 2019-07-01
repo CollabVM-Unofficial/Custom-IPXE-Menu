@@ -1,0 +1,39 @@
+#!ipxe
+menu Selection
+item tinycore (tinycore)
+item voidlinux (void linux)
+item archlinux (arch linux)
+item ubuntu (ubuntu trash)
+item mx (mx linux aka actually good)
+item saby (sabayon aka gentoo but worse)
+item antergos (antergos aka arch with a nice installer)
+item slacko (puppy linux slackware)
+item biopup (puppy linux bionic)
+choose os && goto ${os}
+
+:tinycore
+sanboot http://distro.ibiblio.org/tinycorelinux/10.x/x86_64/release/TinyCorePure64-10.1.iso
+
+:voidlinux
+sanboot http://mirrors.dotsrc.org/voidlinux/live/current/void-live-x86_64-20181111-lxde.iso
+
+:archlinux
+sanboot http://mirror.aarnet.edu.au/pub/archlinux/iso/2019.06.01/archlinux-2019.06.01-x86_64.iso
+
+:ubuntu
+sanboot http://releases.ubuntu.com/18.04.2/ubuntu-18.04.2-desktop-amd64.iso
+
+:mx 
+sanboot http://mirror.math.princeton.edu/pub/mxlinux-iso/MX/Final/MX-18.3_x64.iso
+
+:saby
+sanboot http://mirror.cs.vt.edu/pub/SabayonLinux/stable/Sabayon_Linux_19.03_amd64_LXQt.iso
+
+:antergos
+sanboot http://mirror.umd.edu/antergos/iso/release/antergos-minimal-19.4-x86_64.iso
+
+:slacko
+sanboot http://ftp.nluug.nl/ftp/pub/os/Linux/distr/puppylinux/puppy-slacko-6.3.2/64/slacko64-6.3.2-uefi.iso
+
+:biopup
+sanboot http://ftp.nluug.nl/ftp/pub/os/Linux/distr/puppylinux/puppy-bionic/bionicpup64/bionicpup64-8.0-uefi.iso
